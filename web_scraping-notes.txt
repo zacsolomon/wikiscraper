@@ -1,0 +1,97 @@
+
+
+* people know how to program but don't know which problems to solve (data)
+* or they know the problems or people (data) but don't know the programming
+
+* a lot of doing data science is administrative
+
+workshop plan
+* types of files, data formats, databases, and APIs 
+* developing some heuristics for getting and dealing with data
+
+
+Data Sources
+* files, databases, web scraping & API
+
+
+* CSVs, JSON, txt (unstructured data) or even PDFs 
+* avoid PDFs
+
+* problem is that data isn't just as data, it's encoded to 
+* was the data built for a human, or for computers... ? 
+	If for humans, it's hard to deal with...
+		like web pages.. they're meant to look good
+		that makes it hard to deal with programatiically
+* ideally you want to find the API, because that's meant for dealing with programmatically 
+
+
+
+Binary files
+* data stored in binary format.. not stored in plain text that you can read
+	opposed to normal types that you can open and read
+* useful for when you want to have data at scale 
+
+
+python is not powerful alone, it's powerful as an ecosystem
+	ex. scipy stack, which is built to use with python
+numpy = 
+	built for array = large homogeneous data
+
+pandas = another
+	built for heterogeneous data
+
+you can save files to a binary file using numpy, and it can decode that 
+it can read and write binary files
+
+we use OOP to create objects for data science..
+
+pickle in pandas 
+allows you to save complex object objects to binary
+
+web portals 
+------
+www.data.gov
+data.sandiego.gov
+
+
+always use an API if you can
+don't just scrape the website if you can because that's not meant for dealing with directly 
+and try not to use RESTful APIs if you can because that's still working with the web
+
+when i say "I will have my computer read scientific articles" it's different than "i will read scientific articles"
+	NLP and text analysis
+	it's not real "reading" it's looking for patterns
+
+when using an API you use OAuth
+
+
+# requesting web pages from python
+import requests 
+from bs4 import BeautifulSoup
+# here you're pretending to be a human
+
+
+we have a list of city data with feautures we care about but it doesn't include geo info
+we want to do have latitude and longtitude for these neighborhood
+how do get all the 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
